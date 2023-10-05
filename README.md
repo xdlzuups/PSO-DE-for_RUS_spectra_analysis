@@ -1,2 +1,3 @@
 # PSO-DE-for_RUS_spectra_analysis
-This repository contains the PSO and DE algorithms for RUS spectra analysis 
+This repository contains the DE algorithms for RUS spectra analysis 
+DE:  differential evolution. DE is chosen to do the searching in high-dimention spcae (depending on the material symmetry). The previous L-M method for the inverse problem of RUS is largely depending on the initial guessed elastic constant sets, which algorithm is easy to converge to a local minima, instead of a global minima. This DE algorithm is aimed to solve that issue by doing rapid global searching in the whole space. A range of elastic modulus needs to be provided beforehand in the DE method, instead of an axact value. The algorithm has been tested with steel standard and always find the accurate elastic constants values.
